@@ -29,6 +29,7 @@ cal.minus(7)
 
 print(cal.value)
 
+
 '''
 Q2. 객체변수 value가 100이상의 값은 가질 수 없도록 제한하는 MaxLimitCalculator 클래스를 만들어보자
 

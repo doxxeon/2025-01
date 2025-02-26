@@ -26,6 +26,7 @@ class Person:
 person1 = Person("홍길동", 30)
 print(person1.greet())
 
+
 '''
 문제 2
 
