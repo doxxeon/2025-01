@@ -1,7 +1,7 @@
 # 점프투파이썬 by gpt 5장 연습문제
 
 '''
-Q1. 아래와 같은 클래스 Person을 생성하세요:
+Q1. 아래와 같은 클래스 Person을 생성하세요
 
 클래스 속성: name, age
 생성자: __init__(self, name, age): name과 age를 인자로 받아 객체를 초기화합니다.
