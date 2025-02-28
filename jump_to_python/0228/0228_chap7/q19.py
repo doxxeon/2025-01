@@ -17,5 +17,9 @@ lee 010-8789-7768
 '''
 
 pattern = re.compile("(010)\D?\d{4}\D?(\d{4})")
-
 print("결과: ", re.sub(pattern, "\g<1>-####-\g<2>", text))
+
+# 또는
+
+modified_text = re.sub(r'(\d{3}-\d{4}-)\d{4}', r'\1####', text)
+print(modified_text)

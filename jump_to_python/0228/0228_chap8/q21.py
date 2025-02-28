@@ -6,8 +6,8 @@ import re
 
 text = "<html><head><Title>제목</head></html>"
 
-p1 = "<.*>"
-p2 = "<.*?"         #정규표현식을 이용해보세요.
+p1 = "<.*>"          #<html>부터 </html>까지 모두 출력
+p2 = "<.*?>"         #정규표현식을 이용해보세요.
 
 m1 = re.findall(p1, text)
 m2 = re.findall(p2, text)

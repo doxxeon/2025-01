@@ -20,3 +20,7 @@ p = re.compile(".+@.+(?=\.(com|net)$)")
 m = p.findall(text)
 
 print(m)
+
+# 또는
+
+pattern = r"."[@]."[.](?=com$|net$)."$"
