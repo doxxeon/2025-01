@@ -262,3 +262,40 @@ print(cal1.avg())
 
 C:\doit 디렉터리에 mymod.py 파이썬 모듈이 있다고 가정해 보자. 명령 프롬프트 창에서 차이썬 셸을 열어 이 모듈을 import 해서 사용할 수 있는 방법을 모두 기술하시오.
 '''
+
+'''
+Q12. 오류와 예외 처리
+
+다음 코드의 실행 결과를 예측하고 그 이유에 대해 설명하시오.
+
+result = 0
+try:
+    [1,2,3][3]
+    "a"+1
+    4 / 0
+except TypeError:
+    result += 1
+except ZeroDivisionError:
+    result += 2
+except IndexError:
+    result += 3
+finally:
+    result += 4
+
+print(result)
+'''
+
+# 7이 출력된다.
+#[1,2,3][3] 은 IndexError이고 마지막에 4가 더해졌기 때문이다.
+
+
+'''
+Q13. DashInsert 함수
+
+DashInsert 함수는 숫자로 구성된 문자열을 입력받은 뒤 문자열 안에서 홀수가 연속되면 두 수 사이에 - 를 추가하고, 짝수가 연속되며 * 를 추가하는 기능을 갖고 있다. DashInsert 함수를 완성하시오.
+
+입력 예시 : 4546793 출력 예시 : 454*67-9-3
+'''
+
+input_data = input("문자열을 입력하세요 : ")
+num = 
